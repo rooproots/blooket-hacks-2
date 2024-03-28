@@ -1,0 +1,6 @@
+// This code extends the time available for answering questions in Blooket games.
+const extendTimer = (additionalTime) => {
+    BlooketGame.timer += additionalTime;
+};
+
+// Call extendTimer() with the additional time in milliseconds to extend the timer
